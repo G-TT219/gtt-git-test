@@ -3,8 +3,8 @@
 using namespace std;
 int main(){
 	cout<<"hello world\n";
-	int x=0;
-	cin>>x;
-	cout<<sin(x)<<endl;
+	for(double i=0;i<=3.14;i=i+0.02){
+		cout<<"sin( "<<i<<" )= "<<sin(i)<<endl;
+	}
 	return 0;
 }
